@@ -1,7 +1,49 @@
 <resources>
-    <string name="app_name">Exer3</string>
+    <string name="app_name">Exercise 2</string>
     <string name="start">START</string>
     <string name="retry">RETRY</string>
     <string name="persona_5_logo">persona 5 logo</string>
-    <string name="scroll_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="title">WHICH PERSONA 5 CHARACTER ARE YOU</string>
+    <string name="start_text">LET US START THE GAME</string>
+    <string name="joker_name">YOU ARE \n AKIRA KURUSU / REN AMAMIYA</string>
+<!--    <string name="state"> YOU ARE \n</string>-->
+    <string name="ann_name">ANN TAKAMAKI</string>
+    <string name="futaba_name">FUTABA SAKURA</string>
+    <string name="goro_name">GORO AKECHI</string>
+    <string name="haru_name">HARU OKUMMURA</string>
+    <string name="makoto_name">MAKOTO NIIJIMA</string>
+    <string name="morgana_name">MORGANA</string>
+    <string name="newgirl_name">KASUMI YOSHIZAWA</string>
+    <string name="ryuji_name">RYUJI SAKAMOTO</string>
+    <string name="yusuke_name">YUSUKE KITAGAWA</string>
+    <string name="joker_text">
+        Akira Kurusu/Ren Amamiya of Persona 5 is a transfer student at Shujin Academy. At the beginning of the game,
+        he has little to no power or influence in the world and is restrained by the rules of the system he was born into.
+        However, beneath his quiet demeanor is a strong-willed juvenile delinquent known throughout the world as The Phantom,
+        to the residents of the Velvet Room he is known as the Trickster, and to his teammates his code name is Joker.
+        Ren/Akira is the leader of the rebellious Phantom Thieves of Hearts which aims to change society by touching
+        the hearts of people and performing illegal heists. \n
+        As per the tradition of the Megami Tensei franchise, he is a silent protagonist, whose personality is based on the player's actions and decisions. However, he appears to have more established traits than any of the previous protagonists.
+        His dialogue options range from somewhat indifferent to outright cheeky. The game allows for quite a number of playful, snarky or audacious answers, including teasing his friends.
+    He also taunts his enemies like the famed Arsène Lupin. In the prologue scene, he remains cocky and confident even when his life is in danger.
+    <string name="ann_text">
+        Ann is a second year high schooler at Shujin Academy, which she calls a *sorry excuse of a school.* Ann is the classmate of the protagonist in 2-D, and she and Ryuji Sakamoto were classmates in middle school.
+        Due to her foreign blood and living abroad before the story, she does not have many friends there and is considered an outcast in Shujin. According to the art book, her parents are away from home and she lives with *servants.(
+        Ann mentions she had a live-in caretaker, so these *servants* are likely caretakers. Both her parents are fashion designers who put on extravagant shows, and that they jump from country to country, so Ann does not see them that often.
+        It is revealed that Ann also used to live in Finland. \n\n © From Megami Tensei Wiki || https://megamitensei.fandom.com/wiki/Ann_Takamaki
+    </string>
+    <string name="futaba_text">Futaba is a young, bespectacled girl with hip length black hair dyed bright orange with straight-cut bangs and two long strands in the front along with a single small, thin ahoge strand at the top.
+        Her brown eyes also seem to have some faint purple tones in them, appearing mauve. She wears large black circular glasses,
+        and she is always seen wearing a set of AKG K845BT headphones with red earpads. She seems to be very short, even compared to other girls.
+        Her casual winter outfit consists of multiple layers; she wears an off-shoulder white top with a red splatter-like pattern on her chest with five white asterisks (*****) which are reminiscent of a passport input system in the red splatter, a black tank top underneath that,
+        a dark green jacket with a faux fur trimmed hood, black short shorts, a studded black belt in a slanted position, black thigh highs socks and black knee-high boots with buckles and studs at the top.
+        The green jacket has A.F.K. on the back (for *away from keyboard*), although it is difficult to see because of Futaba's long hair. \n\n © From Megami Tensei Wiki: https://megamitensei.fandom.com/wiki/Futaba_Sakura </string>
+    <string name="goro_text"> </string>
+    <string name="haru_text"> </string>
+    <string name="makoto_text"></string>
+    <string name="morgana_text"></string>
+    <string name="newgirl_text"></string>
+    <string name="ryuji_text"></string>
+    <string name="yusuke_text"></string>
+
 </resources>
