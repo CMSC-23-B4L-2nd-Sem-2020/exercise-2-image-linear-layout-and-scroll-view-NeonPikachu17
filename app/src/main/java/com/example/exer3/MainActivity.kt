@@ -19,7 +19,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
 //      val startRandom: Button = findViewById(R.id.roll_button)      // Dunno why this here when we don't use it for now
 //      val retryRandom: Button = findViewById(R.id.retry)            // Dunno why this here when we don't use it for now
 
@@ -27,6 +26,7 @@ class MainActivity : AppCompatActivity() {
         roll_button.setOnClickListener{ rollPics() }
         retry.setOnClickListener{ retryPic() }
 
+        // Different initialized variables
         picView = findViewById(R.id.p5_image)
         textView = findViewById(R.id.story)
 
@@ -35,9 +35,11 @@ class MainActivity : AppCompatActivity() {
     private fun rollPics() {
         // For randomization
         val randomInt = (1..10).random()
+        // For data manipulation
         val picsView: ImageView = findViewById(R.id.p5_image)
         val storyView: TextView = findViewById(R.id.story)
 
+        // Getting of the random int to set what resource to place
         val drawableResource = when (randomInt) {
             1 -> R.drawable.joker
             2 -> R.drawable.ann
@@ -51,6 +53,7 @@ class MainActivity : AppCompatActivity() {
             else -> R.drawable.yusuke
         }
 
+        // To set the text
         when (randomInt) {
             1 -> storyView.setText(R.string.joker_text)
             2 -> storyView.setText(R.string.ann_text)
@@ -72,9 +75,15 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     private fun retryPic() {        // Function which restarts the program
         val picsView: ImageView = findViewById(R.id.p5_image)
+        val textView: TextView = findViewById(R.id.story)
 
         picsView.setImageResource(R.drawable.p5logo)
+        textView.setText(R.string.start_text)
     }
+// Bernabe, Marveen Antonio S.
+// CMSC 23 B-3L
+
 }
